@@ -1,0 +1,97 @@
+#bodyDiv {
+    background: #1A3C86;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #1A3C86, #3D61B7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #1A3C86, #3D61B7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* myH1tag */
+
+.myH1tag {
+    font-size: 64px !important;
+}
+
+
+/* End myH1tag */
+
+
+/* custom fancy button */
+
+fancyButton {
+    width: 250px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-box {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oneSpecial {
+    background: #FF6285;
+    color: white;
+    border-radius: 5px;
+    transition: transform 300ms;
+}
+
+.oneSpecial:hover {
+    transform: scale(0.9);
+}
+
+
+/* end fancy button */
+
+
+/* media query */
+
+@media (max-width:767px) {
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    img {
+        max-width: 240px;
+        max-height: 240px;
+    }
+}
+
+@media (min-width:992px) {
+    img {
+        max-width: 314px;
+        max-height: 314px;
+    }
+}
+
+@media (min-width:1200px) {
+    img {
+        max-width: 380px;
+        max-height: 380px;
+    }
+}
+
+@media (min-width:1600px) {
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+
+/* end media query */
