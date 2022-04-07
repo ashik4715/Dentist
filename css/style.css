@@ -1,4 +1,13 @@
-#bodyDiv {
+#headerCss {
+    background: #1A3C86;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #1A3C86, #3D61B7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #1A3C86, #3D61B7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#footerCss {
     background: #1A3C86;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #1A3C86, #3D61B7);
@@ -8,14 +17,36 @@
 }
 
 
-/* myH1tag */
+/* mytags */
 
-.myH1tag {
-    font-size: 64px !important;
+.mytag1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.mytag2 {
+    color: #1A3C86;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.mytag3 {
+    color: #1A3C86;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: center;
 }
 
 
-/* End myH1tag */
+/* End mytags */
 
 
 /* custom fancy button */
@@ -67,8 +98,8 @@ fancyButton {
 
 @media (min-width:768px) {
     img {
-        max-width: 240px;
-        max-height: 240px;
+        max-width: 480px;
+        max-height: 480px;
     }
 }
 
@@ -81,8 +112,8 @@ fancyButton {
 
 @media (min-width:1200px) {
     img {
-        max-width: 380px;
-        max-height: 380px;
+        max-width: 480px;
+        max-height: 480px;
     }
 }
 
