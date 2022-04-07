@@ -103,12 +103,13 @@ fancyButton {
     }
 }
 
-@media (min-width:992px) {
+
+/* @media (min-width:992px) {
     img {
         max-width: 314px;
         max-height: 314px;
     }
-}
+} */
 
 @media (min-width:1200px) {
     img {
