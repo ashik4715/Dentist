@@ -134,7 +134,7 @@ fancyButton {
 
 .prev:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #E1F9FF;
     color: white;
 }
 
