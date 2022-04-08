@@ -20,6 +20,33 @@
     background: #E1F9FF;
 }
 
+#OurBookingHours {
+    background-color: #1A3C86;
+    background-image: url('image/bookingHours.png');
+    background-blend-mode: overlay;
+    opacity: 0.8;
+    border-radius: 0px;
+}
+
+.bookingHoursTitle {
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.bookingHoursText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
 
 /* mytags */
 
@@ -185,11 +212,6 @@ q {
 /* card CSS */
 
 .cardCss {
-    height: 20px;
-    width: 227px;
-    left: 406.8675537109375px;
-    top: 2176.9853515625px;
-    border-radius: nullpx;
     color: #1A3C86;
     font-size: 23px;
     font-weight: 700;
