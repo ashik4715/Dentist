@@ -27,6 +27,24 @@ function showSlides(n) {
 }
 // end slider
 
-// Corousal
+// Project Counter
+var a = 0;
+$(window).scroll(function() {
 
-// end Corousal
+    var oTop = $('#counter').offset().top - window.innerHeight;
+    if (a == 0 && $(window).scrollTop() > oTop) {
+        $('.counter').each(function() {
+            var $this = $(this);
+            jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+                duration: 2500,
+                easing: 'swing',
+                step: function() {
+                    $this.text(Math.ceil(this.Counter));
+                }
+            });
+        });
+        a = 1; // 
+    }
+});
+
+// end Project Counter
