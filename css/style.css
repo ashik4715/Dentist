@@ -57,6 +57,21 @@
     color: #FFFFFF;
 }
 
+.footerIconShadow {
+    text-shadow: 2px 2px #20202088;
+}
+
+.social-icons {
+    color: #FFFFFF;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+}
+
 #ServiceWeProvide {
     background: #E1F9FF;
     font-family: 'Red Hat Display';
