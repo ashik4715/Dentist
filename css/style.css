@@ -39,7 +39,7 @@
 .footerHtag3 {
     font-family: 'Red Hat Display';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.01em;
@@ -50,11 +50,11 @@
 .footerParagraph {
     font-family: 'Red Hat Display';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
     line-height: 28px;
-    /* or 187% */
     letter-spacing: 0.01em;
+    color: #FFFFFF;
 }
 
 #ServiceWeProvide {
