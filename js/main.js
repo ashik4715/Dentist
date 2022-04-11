@@ -26,3 +26,7 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 // end slider
+
+// Corousal
+
+// end Corousal

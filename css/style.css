@@ -271,6 +271,12 @@ q {
 /* end card CSS */
 
 
+/* Custom Carousal CSS */
+
+
+/* End Custom Carousal CSS */
+
+
 /* media query */
 
 @media (max-width:767px) {
@@ -281,24 +287,41 @@ q {
 }
 
 @media (min-width:768px) {
+    .smiling-img {
+        max-width: 480px;
+        max-height: 480px;
+    }
+    .carousel-item {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (min-width:992px) {
+    .carousel-item {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (min-width:1024px) {
+    .carousel-item {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (min-width:1200px) {
     img {
         max-width: 480px;
         max-height: 480px;
     }
 }
 
-
-/* @media (min-width:992px) {
-    img {
-        max-width: 314px;
-        max-height: 314px;
-    }
-} */
-
-@media (min-width:1200px) {
-    img {
-        max-width: 480px;
-        max-height: 480px;
+@media (min-width:1440px) {
+    .carousel-item {
+        max-width: 100%;
+        max-height: 100%;
     }
 }
 
