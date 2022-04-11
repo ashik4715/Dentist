@@ -66,6 +66,7 @@
 }
 
 .hoursTiming {
+    padding-left: 45px;
     background: #E1F9FF;
 }
 
@@ -124,6 +125,26 @@
     text-align: center;
     font-family: 'Red Hat Display';
     font-style: normal;
+}
+
+.mytag4 {
+    color: #1A3C86;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+}
+
+.read-more {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FF6285;
 }
 
 
