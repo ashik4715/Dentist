@@ -80,6 +80,15 @@
     color: #FFFFFF !important;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #1A3C86 !important;
+}
+
 a,
 a:visited,
 a:hover,
@@ -94,6 +103,13 @@ a:active {
     background: #E1F9FF;
     font-family: 'Red Hat Display';
     font-style: normal;
+}
+
+#headerCss2 {
+    background: #E1F9FF;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    letter-spacing: 0.01em;
 }
 
 .ServiceTitle {
