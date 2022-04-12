@@ -65,12 +65,30 @@
     color: #FFFFFF;
 }
 
+.footerNav {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
+
+
+/* override css bootstrap */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF !important;
+}
+
 a,
 a:visited,
 a:hover,
 a:active {
     color: inherit;
 }
+
+
+/* end override css bootstrap */
 
 #ServiceWeProvide {
     background: #E1F9FF;
