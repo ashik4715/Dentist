@@ -76,6 +76,28 @@
 
 /* override css bootstrap */
 
+.accordion-button:not(.collapsed) {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FF6285 !important;
+}
+
+.accordion-button.collapsed {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #1A3C86 !important;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: #FFFFFF !important;
 }
