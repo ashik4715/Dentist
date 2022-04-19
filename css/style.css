@@ -17,8 +17,8 @@
 }
 
 .footerHtag1 {
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 700;
     font-size: 23px;
     line-height: 35px;
@@ -27,8 +27,8 @@
 }
 
 .footerHtag2 {
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 700;
     font-size: 18px;
     line-height: 15px;
@@ -37,8 +37,8 @@
 }
 
 .footerHtag3 {
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
@@ -48,8 +48,8 @@
 }
 
 .footerParagraph {
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 500;
     font-size: 15px;
     line-height: 28px;
@@ -66,8 +66,8 @@
 }
 
 .footerNav {
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.01em;
@@ -77,8 +77,8 @@
 /* override css bootstrap */
 
 .accordion-button:not(.collapsed) {
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
@@ -88,8 +88,8 @@
 }
 
 .accordion-button.collapsed {
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
@@ -103,8 +103,8 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 0.01em;
@@ -123,14 +123,14 @@ a:active {
 
 #ServiceWeProvide {
     background: #E1F9FF;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
 }
 
 #headerCss2 {
     background: #E1F9FF;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     letter-spacing: 0.01em;
 }
 
@@ -140,8 +140,8 @@ a:active {
     font-weight: 700;
     line-height: 70px;
     letter-spacing: 0.01em;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
 }
 
 #OurBookingHours {
@@ -150,8 +150,8 @@ a:active {
     background-blend-mode: overlay;
     opacity: 0.8;
     border-radius: 0px;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
 }
 
 .bookingHoursTitle {
@@ -161,8 +161,8 @@ a:active {
     line-height: 70px;
     letter-spacing: 0.01em;
     text-align: center;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
 }
 
 .bookingHoursText {
@@ -173,8 +173,8 @@ a:active {
     text-align: center;
     letter-spacing: 0.01em;
     color: #FFFFFF;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
 }
 
 .hoursTiming {
@@ -183,8 +183,8 @@ a:active {
 }
 
 .video-section-hTag {
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 700;
     font-size: 55px;
     line-height: 70px;
@@ -194,8 +194,8 @@ a:active {
 }
 
 .video-section-paragraph {
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 500;
     font-size: 15px;
     line-height: 28px;
@@ -213,8 +213,8 @@ a:active {
     line-height: 75px;
     letter-spacing: 0.01em;
     text-align: left;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
 }
 
 .mytag2 {
@@ -224,8 +224,8 @@ a:active {
     line-height: 70px;
     letter-spacing: 0.01em;
     text-align: center;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
 }
 
 .mytag3 {
@@ -235,23 +235,26 @@ a:active {
     line-height: 28px;
     letter-spacing: 0.01em;
     text-align: center;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
 }
 
 .mytag4 {
-    color: #1A3C86;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 28px;
-    letter-spacing: 0.01em;
     font-family: 'Red Hat Display';
     font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #1A3C86;
+    opacity: 0.9;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
 }
 
 .read-more {
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 700;
     font-size: 15px;
     line-height: 20px;
@@ -290,8 +293,8 @@ fancyButton {
     background: #FF6285;
     color: white;
     transition: transform 300ms;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
 }
 
 .oneSpecial:hover {
@@ -329,6 +332,13 @@ fancyButton {
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    background: #FF6285;
+    color: #fff;
+}
+
+.prev:hover,
+.next:hover {
+    background: #1A3C86!important;
 }
 
 
@@ -380,8 +390,8 @@ fancyButton {
 
 q {
     font-style: italic;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
 }
 
 
@@ -389,8 +399,8 @@ q {
 
 .author {
     color: cornflowerblue;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
 }
 
 
@@ -406,19 +416,6 @@ q {
     line-height: 20px;
     letter-spacing: 0.01em;
     text-align: left;
-}
-
-.cardNumbers {
-    width: 70px;
-    height: 70px;
-    left: 1485.71px;
-    top: 2005.67px;
-    color: #1A3C86;
-    font-size: 45px;
-    background-color: #E1F9FF;
-    border: 1px solid #E1F9FF;
-    font-family: 'Red Hat Display';
-    font-style: normal;
 }
 
 .card {
@@ -441,8 +438,8 @@ q {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
@@ -488,6 +485,21 @@ q {
 
 .side-img2-css {
     margin-top: 115px !important;
+}
+
+.card-img-top {
+    max-width: 80px;
+    max-height: 80px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.card-img-overlay {
+    background-color: #EDFBFF;
+    max-width: 89.43px;
+    max-height: 89.43px;
+    /* margin-left: 220px !important; */
+    float: right !important;
 }
 
 
