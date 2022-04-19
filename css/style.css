@@ -1,9 +1,9 @@
 #headerCss {
     background: #1A3C86;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #1A3C86, #3D61B7);
+    background: -webkit-linear-gradient(to top, #1A3C86, #1A3C86);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #1A3C86, #3D61B7);
+    background: linear-gradient(to top, #1A3C86, #1A3C86);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -482,6 +482,14 @@ q {
 
 /* End telephone input */
 
+.side-img1-css {
+    margin-top: 205px !important;
+}
+
+.side-img2-css {
+    margin-top: 115px !important;
+}
+
 
 /* media query */
 
@@ -489,6 +497,14 @@ q {
     img {
         max-width: 100%;
         max-height: 100%;
+    }
+    .side-img1 {
+        max-width: 110px;
+        max-height: 110px;
+    }
+    .side-img2 {
+        max-width: 110px;
+        max-height: 110px;
     }
 }
 
@@ -500,6 +516,14 @@ q {
     .carousel-item {
         max-width: 100%;
         max-height: 100%;
+    }
+    .side-img1 {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .side-img2 {
+        max-width: 100px;
+        max-height: 100px;
     }
 }
 
@@ -515,6 +539,14 @@ q {
         max-width: 100%;
         max-height: 100%;
     }
+    .side-img1 {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .side-img2 {
+        max-width: 100px;
+        max-height: 100px;
+    }
 }
 
 @media (min-width:1200px) {
@@ -526,12 +558,28 @@ q {
         max-width: 100%;
         max-height: 100%;
     }
+    .side-img1 {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .side-img2 {
+        max-width: 100px;
+        max-height: 100px;
+    }
 }
 
 @media (min-width:1440px) {
     .carousel-item {
         max-width: 100%;
         max-height: 100%;
+    }
+    .side-img1 {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .side-img2 {
+        max-width: 100px;
+        max-height: 100px;
     }
 }
 
@@ -543,6 +591,33 @@ q {
     .carousel-item {
         max-width: 100%;
         max-height: 100%;
+    }
+    .side-img1 {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .side-img2 {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+@media (min-width:2560px) {
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .carousel-item {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .side-img1 {
+        max-width: 140px;
+        max-height: 140px;
+    }
+    .side-img2 {
+        max-width: 140px;
+        max-height: 140px;
     }
 }
 
