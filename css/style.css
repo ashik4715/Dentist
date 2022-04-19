@@ -148,7 +148,7 @@ a:active {
     background-color: #1A3C86;
     background-image: url('image/bookingHours.png');
     background-blend-mode: overlay;
-    opacity: 0.8;
+    opacity: 0.82;
     border-radius: 0px;
     font-family: 'Red Hat Display' !important;
     font-style: normal !important;
@@ -180,6 +180,7 @@ a:active {
 .hoursTiming {
     padding-left: 45px;
     background: #E1F9FF;
+    text-align: center;
 }
 
 .video-section-hTag {
@@ -518,6 +519,11 @@ q {
     float: right !important;
 }
 
+.icon-clock {
+    color: #FF6285;
+    margin-right: 10px;
+}
+
 
 /* media query */
 
@@ -553,12 +559,43 @@ q {
         max-width: 100px;
         max-height: 100px;
     }
+    .hoursTiming {
+        max-width: 600px;
+        margin-left: 80px;
+        margin-top: -20px;
+    }
+    #OurBookingHours {
+        margin-top: -50px;
+    }
+}
+
+@media (min-width:820px) {
+    .carousel-item {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .hoursTiming {
+        max-width: 650px;
+        margin-left: 90px;
+        margin-top: -20px;
+    }
+    #OurBookingHours {
+        margin-top: -50px;
+    }
 }
 
 @media (min-width:992px) {
     .carousel-item {
         max-width: 100%;
         max-height: 100%;
+    }
+    .hoursTiming {
+        max-width: 800px;
+        margin-left: 80px;
+        margin-top: -20px;
+    }
+    #OurBookingHours {
+        margin-top: -50px;
     }
 }
 
@@ -574,6 +611,14 @@ q {
     .side-img2 {
         max-width: 100px;
         max-height: 100px;
+    }
+    .hoursTiming {
+        max-width: 850px;
+        margin-left: 85px;
+        margin-top: -20px;
+    }
+    #OurBookingHours {
+        margin-top: -50px;
     }
 }
 
@@ -594,6 +639,49 @@ q {
         max-width: 100px;
         max-height: 100px;
     }
+    .hoursTiming {
+        max-width: 1230px;
+        margin-left: 100px;
+    }
+    .hoursTiming {
+        max-width: 1050px;
+        margin-left: 75px;
+        margin-top: -20px;
+    }
+    #OurBookingHours {
+        margin-top: -50px;
+    }
+}
+
+@media (min-width:1280px) {
+    img {
+        max-width: 480px;
+        max-height: 480px;
+    }
+    .carousel-item {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .side-img1 {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .side-img2 {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .hoursTiming {
+        max-width: 1230px;
+        margin-left: 100px;
+    }
+    .hoursTiming {
+        max-width: 1050px;
+        margin-left: 115px;
+        margin-top: -20px;
+    }
+    #OurBookingHours {
+        margin-top: -50px;
+    }
 }
 
 @media (min-width:1440px) {
@@ -608,6 +696,14 @@ q {
     .side-img2 {
         max-width: 100px;
         max-height: 100px;
+    }
+    .hoursTiming {
+        max-width: 1230px;
+        margin-left: 100px;
+        margin-top: -20px;
+    }
+    #OurBookingHours {
+        margin-top: -50px;
     }
 }
 
@@ -628,6 +724,14 @@ q {
         max-width: 100px;
         max-height: 100px;
     }
+    .hoursTiming {
+        max-width: 1220px;
+        margin-left: 445px;
+        margin-top: -20px;
+    }
+    #OurBookingHours {
+        margin-top: -50px;
+    }
 }
 
 @media (min-width:2560px) {
@@ -646,6 +750,14 @@ q {
     .side-img2 {
         max-width: 140px;
         max-height: 140px;
+    }
+    .hoursTiming {
+        max-width: 1230px;
+        margin-left: 670px;
+        margin-top: -20px;
+    }
+    #OurBookingHours {
+        margin-top: -50px;
     }
 }
 
