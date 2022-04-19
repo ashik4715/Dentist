@@ -282,11 +282,15 @@ fancyButton {
 
 .button-box {
     width: 250px;
-    height: 150px;
+    height: 75px;
     margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #1A3C86;
+    padding: 10px;
+    box-shadow: 10px 10px #3D61B7;
+    box-sizing: border-box;
 }
 
 .oneSpecial {
@@ -299,6 +303,17 @@ fancyButton {
 
 .oneSpecial:hover {
     transform: scale(0.9);
+}
+
+#box-with-image {
+    display: block;
+    background-image: url('image/doctors.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#button-overlay {
+    margin: 253px auto;
 }
 
 
