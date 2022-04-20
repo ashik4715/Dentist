@@ -16,6 +16,26 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.nav-button-css {
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #1A3C86;
+}
+
+.home-button-css {
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
 .footerHtag1 {
     font-family: 'Red Hat Display' !important;
     font-style: normal !important;
@@ -550,9 +570,9 @@ q {
 
 #getGoogleText {
     background: #E1F9FF;
-    margin-left: -200px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-left: -92px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #getGoogleImg {
@@ -561,7 +581,7 @@ q {
 }
 
 .dot-map-fixer {
-    margin-left: 590px;
+    margin-left: 460px;
     margin-top: -82px;
 }
 
