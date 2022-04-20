@@ -490,7 +490,7 @@ q {
 .intl-tel-input.separate-dial-code input,
 .intl-tel-input.separate-dial-code input[type=text],
 .intl-tel-input.separate-dial-code input[type=tel] {
-    padding-left: 92px !important;
+    padding-left: 62px !important;
 }
 
 
@@ -523,12 +523,37 @@ q {
     color: #FF6285;
     margin-right: 10px;
 }
+
 #fancy-carousal-slide {
     background-image: url('image/smile1.png');
     background-blend-mode: overlay;
     max-width: 1205px;
     max-height: 564px;
 }
+
+.counter {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 70px !important;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #1A3C86;
+}
+
+.form-css {
+    background-image: url(image/Make-an-appointment-dots.png);
+    background-blend-mode: overlay;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 50px rgba(1, 82, 204, 0.12);
+}
+
+#getYourLocation {
+    background-color: #E1F9FF;
+    margin-left: 400px;
+}
+
 
 /* media query */
 
