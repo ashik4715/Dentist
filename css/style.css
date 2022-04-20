@@ -523,7 +523,12 @@ q {
     color: #FF6285;
     margin-right: 10px;
 }
-
+#fancy-carousal-slide {
+    background-image: url('image/smile1.png');
+    background-blend-mode: overlay;
+    max-width: 1205px;
+    max-height: 564px;
+}
 
 /* media query */
 
