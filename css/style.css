@@ -10,9 +10,9 @@
 #footerCss {
     background: #1A3C86;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #1A3C86, #3D61B7);
+    background: -webkit-linear-gradient(to top, #1A3C86, #1A3C86);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #1A3C86, #3D61B7);
+    background: linear-gradient(to top, #1A3C86, #1A3C86);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -135,13 +135,15 @@ a:active {
 }
 
 .ServiceTitle {
-    color: #1A3C86;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 70px;
-    letter-spacing: 0.01em;
-    font-family: 'Red Hat Display' !important;
-    font-style: normal !important;
+    font-family: 'Red Hat Display'!important;
+    font-style: normal!important;
+    font-weight: 700!important;
+    font-size: 60px!important;
+    line-height: 75px!important;
+    display: flex!important;
+    align-items: center!important;
+    letter-spacing: 0.01em!important;
+    color: #1A3C86!important;
 }
 
 #OurBookingHours {
@@ -241,16 +243,13 @@ a:active {
 }
 
 .mytag4 {
-    font-family: 'Red Hat Display';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0.01em;
-    color: #1A3C86;
-    opacity: 0.9;
-    font-family: 'Red Hat Display' !important;
-    font-style: normal !important;
+    font-family: 'Red Hat Display'!important;
+    font-style: normal!important;
+    font-weight: 600!important;
+    font-size: 18px!important;
+    line-height: 25px!important;
+    letter-spacing: 0.01em!important;
+    color: #1A3C86!important;
 }
 
 .read-more {
@@ -542,16 +541,28 @@ q {
     color: #1A3C86;
 }
 
-.form-css {
+.dots-form {
     background-image: url(image/Make-an-appointment-dots.png);
     background-blend-mode: overlay;
-    background: #FFFFFF;
+    background-repeat: no-repeat;
     box-shadow: 0px 15px 50px rgba(1, 82, 204, 0.12);
 }
 
-#getYourLocation {
-    background-color: #E1F9FF;
-    margin-left: 400px;
+#getGoogleText {
+    background: #E1F9FF;
+    margin-left: -200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#getGoogleImg {
+    background-image: url(image/demo-google-map.png)!important;
+    background-blend-mode: overlay;
+}
+
+.dot-map-fixer {
+    margin-left: 590px;
+    margin-top: -82px;
 }
 
 
