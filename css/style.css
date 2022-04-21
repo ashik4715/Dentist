@@ -105,6 +105,7 @@
     letter-spacing: 0.01em;
     text-transform: capitalize;
     color: #FF6285 !important;
+    background-color: #FFFFFF !important;
 }
 
 .accordion-button.collapsed {
@@ -116,6 +117,7 @@
     letter-spacing: 0.01em;
     text-transform: capitalize;
     color: #1A3C86 !important;
+    background-color: #EFFAFF !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -158,12 +160,12 @@ a:active {
     font-family: 'Red Hat Display'!important;
     font-style: normal!important;
     font-weight: 700!important;
-    font-size: 60px!important;
+    font-size: 55px!important;
     line-height: 75px!important;
     display: flex!important;
     align-items: center!important;
     letter-spacing: 0.01em!important;
-    color: #1A3C86!important;
+    color: #1A3C86;
 }
 
 #OurBookingHours {
@@ -269,7 +271,7 @@ a:active {
     font-size: 18px!important;
     line-height: 25px!important;
     letter-spacing: 0.01em!important;
-    color: #1A3C86!important;
+    color: #1A3C86;
 }
 
 .read-more {
@@ -307,9 +309,9 @@ fancyButton {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #1A3C86;
+    border: 1px solid #FF6285;
     padding: 10px;
-    box-shadow: 10px 10px #3D61B7;
+    box-shadow: 10px 10px grey;
     box-sizing: border-box;
 }
 
