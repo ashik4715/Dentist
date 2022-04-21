@@ -587,7 +587,9 @@ q {
     margin-top: -82px;
 }
 
-
+.project-count-border{
+    border: 1px solid rgba(57, 99, 190, 0.3);
+}
 /* media query */
 
 @media (max-width:767px) {
