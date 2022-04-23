@@ -159,12 +159,12 @@ a:active {
 .ServiceTitle {
     font-family: 'Red Hat Display'!important;
     font-style: normal!important;
-    font-weight: 700!important;
-    font-size: 55px!important;
-    line-height: 75px!important;
-    display: flex!important;
-    align-items: center!important;
-    letter-spacing: 0.01em!important;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
     color: #1A3C86;
 }
 
@@ -720,6 +720,20 @@ q {
     .service-list-link {
         margin-left: 18px;
     }
+    
+    .mytag1{
+        font-size: 30px;
+    }
+    .video-section-paragraph{
+        font-size: 13px;
+    }
+    .about-us-title-image{
+        display: none;
+    }
+    .ServiceTitle{
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 
 @media (min-width:768px) {
@@ -747,6 +761,9 @@ q {
     #OurBookingHours {
         margin-top: -50px;
     }
+    .about-us-title-image{
+        display: none;
+    }
 }
 
 @media (min-width:820px) {
@@ -762,6 +779,9 @@ q {
     #OurBookingHours {
         margin-top: -50px;
     }
+    .about-us-title-image{
+        display: none;
+    }
 }
 
 @media (min-width:992px) {
@@ -776,6 +796,9 @@ q {
     }
     #OurBookingHours {
         margin-top: -50px;
+    }
+    .about-us-title-image{
+        display: none;
     }
 }
 
