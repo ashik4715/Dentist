@@ -1,3 +1,14 @@
+// card hover css change
+// jQuery('#cardCss2').on('mouseover', function() {
+//     $('.card-counter').css('color', '#FF6285');
+//     $('.cardCss').css('color', '#FF6285');
+// });
+// jQuery('#cardCss2').on('mouseout', function() {
+//     $('.card-counter').css('color', '#1A3C86');
+//     $('.cardCss').css('color', '#1A3C86');
+//   })
+// card hover css change
+
 // slider
 var slideIndex = 1;
 showSlides(slideIndex);

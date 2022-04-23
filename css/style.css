@@ -522,12 +522,7 @@ q {
     color: #1A3C86;
 }
 
-.card-counter:hover {
-    font-family: 'Red Hat Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    letter-spacing: 0.01em;
+.card-counter:hover, .cardCss:hover {
     color: #FF6285;
 }
 
