@@ -246,7 +246,15 @@ a:active {
     color: #1A3C86;
     opacity: 0.85;
 }
-
+.accordion-body {
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #1A3C86;
+}
 
 /* mytags */
 
@@ -721,8 +729,14 @@ q {
         line-height: 70px;
     }
     .video-section-paragraph{
+        max-width: 350px;
         font-size: 13px;
         line-height: 28px;
+    }
+    .video-section-hTag{
+        max-width: 265px;
+        font-size: 30px;
+        line-height: 35px;
     }
     .about-us-title-image{
         display: none;
