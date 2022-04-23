@@ -718,9 +718,11 @@ q {
     
     .mytag1{
         font-size: 30px;
+        line-height: 70px;
     }
     .video-section-paragraph{
         font-size: 13px;
+        line-height: 28px;
     }
     .about-us-title-image{
         display: none;
@@ -728,6 +730,14 @@ q {
     .ServiceTitle{
         font-size: 30px;
         line-height: 40px;
+    }
+    .service-list-link{
+        display: none;
+    }
+    .img-square-wrapper{
+        max-width: 49px;
+        max-height: 49px;
+        margin-left: 10px;
     }
 }
 
