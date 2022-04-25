@@ -762,10 +762,16 @@ q {
     .btn-nav-submit {
         display: none !important;
     }
-    .ServiceTitle {
+    #ServiceTitle {
         font-size: 30px;
         line-height: 40px;
         max-width: 183px;
+    }
+    #ServiceTitle2 {
+        font-size: 30px;
+        line-height: 50px;
+        max-width: 365px;
+        margin-left: 16px;
     }
     .service-list-link {
         display: none;
@@ -827,6 +833,13 @@ q {
     #fancy-carousal-slide {
         max-width: 606px;
         max-height: 384px;
+    }
+    .quick-response,
+    .telephoneText {
+        display: none;
+    }
+    #fancybutton-hide {
+        display: none;
     }
 }
 
