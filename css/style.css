@@ -176,7 +176,8 @@ a:active {
     border-radius: 0px;
     font-family: 'Red Hat Display' !important;
     font-style: normal !important;
-    margin-top: 0%;
+    padding-top: 6% !important;
+    padding-bottom: 6% !important;
 }
 
 #tourPlayCover {
@@ -487,7 +488,6 @@ q {
     background-color: #EDFBFF;
     max-width: 89.43px;
     max-height: 89.43px;
-    /* margin-left: 220px !important; */
     float: right !important;
 }
 
@@ -610,6 +610,14 @@ q {
 .icon-clock {
     color: #FF6285;
     margin-right: 10px;
+}
+
+.clock-text-css {
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
+    font-weight: 700;
+    line-height: 28px;
+    color: #1A3C86;
 }
 
 #fancy-carousal-slide {
@@ -757,6 +765,7 @@ q {
     .ServiceTitle {
         font-size: 30px;
         line-height: 40px;
+        max-width: 183px;
     }
     .service-list-link {
         display: none;
@@ -789,6 +798,35 @@ q {
         max-width: 202px;
         margin: 100px auto;
         padding: 10px 16px;
+    }
+    #OurBookingHours {
+        max-width: 381px;
+        max-height: 273px;
+    }
+    .bookingHoursTitle {
+        font-size: 30px;
+        line-height: 75px;
+    }
+    .bookingHoursText {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .side-img-ballon {
+        display: none;
+    }
+    .video-section-hTag {
+        max-width: 330px;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+    }
+    #paragraph-center {
+        line-height: 28px;
+        text-align: center;
+    }
+    #fancy-carousal-slide {
+        max-width: 606px;
+        max-height: 384px;
     }
 }
 
