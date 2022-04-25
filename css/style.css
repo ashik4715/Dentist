@@ -246,6 +246,7 @@ a:active {
     color: #1A3C86;
     opacity: 0.85;
 }
+
 .accordion-body {
     font-family: 'Red Hat Display' !important;
     font-style: normal !important;
@@ -255,6 +256,7 @@ a:active {
     letter-spacing: 0.01em;
     color: #1A3C86;
 }
+
 
 /* mytags */
 
@@ -530,7 +532,8 @@ q {
     color: #1A3C86;
 }
 
-.card-counter:hover, .cardCss:hover {
+.card-counter:hover,
+.cardCss:hover {
     color: #FF6285;
 }
 
@@ -723,35 +726,69 @@ q {
     .service-list-link {
         margin-left: 18px;
     }
-    
-    .mytag1{
+    .mytag1 {
+        max-width: 359px;
         font-size: 30px;
-        line-height: 70px;
+        line-height: 50px;
+        text-align: center;
     }
-    .video-section-paragraph{
+    .footerParagraph {
+        max-width: 350px;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .video-section-paragraph {
         max-width: 350px;
         font-size: 13px;
         line-height: 28px;
     }
-    .video-section-hTag{
+    .video-section-hTag {
         max-width: 265px;
         font-size: 30px;
         line-height: 35px;
     }
-    .about-us-title-image{
+    .about-us-title-image {
         display: none;
     }
-    .ServiceTitle{
+    .btn-nav-submit {
+        display: none !important;
+    }
+    .ServiceTitle {
         font-size: 30px;
         line-height: 40px;
     }
-    .service-list-link{
+    .service-list-link {
         display: none;
     }
-    .img-square-wrapper{
+    .img-square-wrapper {
         max-width: 49px;
         max-height: 49px;
         margin-left: 10px;
+    }
+    #button-box-center {
+        margin-left: 45px;
+    }
+    .side-img1-css,
+    .side-img2-css {
+        display: none;
+    }
+    .mytag2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .mytag3 {
+        font-size: 13px;
+        line-height: 28px;
+    }
+    #box-with-image {
+        max-width: 427px;
+        max-height: 268px;
+    }
+    #button-overlay {
+        max-width: 202px;
+        margin: 100px auto;
+        padding: 10px 16px;
     }
 }
 
@@ -780,7 +817,7 @@ q {
     #OurBookingHours {
         margin-top: -50px;
     }
-    .about-us-title-image{
+    .about-us-title-image {
         display: none;
     }
 }
@@ -798,7 +835,7 @@ q {
     #OurBookingHours {
         margin-top: -50px;
     }
-    .about-us-title-image{
+    .about-us-title-image {
         display: none;
     }
 }
@@ -816,7 +853,7 @@ q {
     #OurBookingHours {
         margin-top: -50px;
     }
-    .about-us-title-image{
+    .about-us-title-image {
         display: none;
     }
 }
