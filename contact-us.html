@@ -52,7 +52,7 @@
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Service</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="service.html">Service List</a></li>
-                                <li><a class="dropdown-item" href="#">Service Details</a></li>
+                                <li><a class="dropdown-item" href="service-details.html">Service Details</a></li>
                             </ul>
                         </li>
                         </li>
@@ -62,7 +62,7 @@
                     </ul>
                 </div>
                 <form class="d-flex" style="border: 1px solid #1A3C86; box-sizing: border-box; color: #1A3C86 !important;">
-                    <button class="btn" type="button"><n class="nav-button-css">Book Appointment</n></button>
+                    <button class="btn btn-nav-submit" type="button"><n class="nav-button-css">Book Appointment</n></button>
                 </form>
             </div>
         </nav>
@@ -75,7 +75,7 @@
                     <p class="video-section-paragraph pt-2 pb-4">Curabitur ultricies est nulla, nec vestibulum erat imperdiet sit amet. Quisque ut viverra velit. Proin nunc nisi, ultrices.</p>
 
                 </div>
-                <div class="col-sm-6" style="background-color: transparent;">
+                <div class="col-sm-6 about-us-title-image" style="background-color: transparent;">
                     <img src="img/about-us-design.PNG" alt="about-us-design">
                 </div>
             </div>
@@ -88,15 +88,15 @@
     <div class="container-md pb-5 pt-5">
         <div class="row">
             <div class="col-sm-6">
-                <h1 class="ServiceTitle pt-5">Contact With Us</h1>
-                <p class="video-section-paragraph pt-4">Curabitur ultricies est nulla, nec vestibulum erat imperdiet sit amet. Quisque ut viverra velit. Proin nunc nisi, ultrices ut risus a, blandit pulvinar ligula. Fusce convallis purus nunc, interdum pharetra lacus auctor nec.</p>
+                <h1 class="ServiceTitle pt-5" id="contact-title">Contact With Us</h1>
+                <p class="video-section-paragraph pt-4" id="contact-paragraph">Curabitur ultricies est nulla, nec vestibulum erat imperdiet sit amet. Quisque ut viverra velit. Proin nunc nisi, ultrices ut risus a, blandit pulvinar ligula. Fusce convallis purus nunc, interdum pharetra lacus auctor nec.</p>
 
-                <h5 class="pt-5" style="color:#1A3C86">For Getting Quick Response</h5>
+                <h5 class="quick-response pt-5" style="color:#1A3C86">For Getting Quick Response</h5>
 
                 <div class="telephoneText pt-3">
                     <i class="fa-solid fa-phone">+8801703588489</i>
                 </div>
-                <img style="margin-top: 200px;" src="img/contact-Vector.png" alt="contact-Vector" class="img-fluid">
+                <img style="margin-top: 200px;" src="img/contact-Vector.png" alt="contact-Vector" class="img-fluid contact-Vector">
             </div>
 
             <div class="col-sm-6 dots-form pt-4 pb-5 px-4">
@@ -122,7 +122,14 @@
                         </button>
                     </div>
                 </form>
+            </div>
 
+            <div class="quick-contact-mobile ms-3">
+                <h5 class="pt-4" id="quick-response" style="color:#1A3C86">For Getting Quick Response</h5>
+
+                <div class="pt-3" id="telephoneText">
+                    <i class="fa-solid fa-phone">+8801703588489</i>
+                </div>
             </div>
         </div>
     </div>
@@ -132,7 +139,10 @@
     <div id="headerCss">
         <div class="container-md pb-5 pt-5">
             <div class="d-flex justify-content-center">
-                <h1 class="mytag1" style="color: white;">Get Our Location</h1>
+                <h1 class="mytag1">Get Our Location</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="mytag4 py-2" id="get-location-paragraph">3324 Yorkshire Circle, Roxobel North Carolina USA</p>
             </div>
             <div class="row">
                 <div class="col-sm-12">
@@ -144,7 +154,7 @@
     <!-- section end Get Our Location -->
 
     <!-- section FAQ -->
-    <div class="container-md pt-5 pb-5">
+    <div class="container-md pt-5 pb-5" id="faq-section">
         <div class="row">
             <div class="col-sm-6">
                 <h1 class="video-section-hTag center pt-5">FAQ</h1>
@@ -239,9 +249,7 @@
         <!-- end container footer -->
         <nav class="navbar navbar-expand-sm navbar-dark justify-content-center">
             <div class="container-md footerNav">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -266,7 +274,11 @@
                 </div>
             </div>
         </nav>
-
+        <div id="copyright-mobile">
+            <small>
+                Copyright © 2022 FreelancherHub
+            </small>
+        </div>
     </footer>
 </body>
 <script src="js/main.js"></script>

@@ -545,26 +545,6 @@ q {
 
 /* end card CSS */
 
-.telephoneText {
-    height: 51.71397399902344px;
-    width: 238.3132781982422px;
-    left: 363px;
-    top: 6473.947265625px;
-    border: 1px solid #3963BE4D;
-    background: rgba(245, 248, 255, 0.5);
-    border: 1px solid rgba(57, 99, 190, 0.3);
-    box-sizing: border-box;
-    border-radius: 0px 25px 25px 0px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: 'Red Hat Display' !important;
-    font-style: normal !important;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-}
-
 
 /* custom telephone input */
 
@@ -709,7 +689,44 @@ q {
 }
 
 .service-list-link>a {
-    text-decoration: none !important
+    text-decoration: none !important;
+}
+
+#quick-response {
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #1A3C86;
+}
+
+.telephoneText,
+#telephoneText {
+    height: 51.71397399902344px;
+    width: 238.3132781982422px;
+    left: 363px;
+    top: 6473.947265625px;
+    border: 1px solid #3963BE4D;
+    background: rgba(245, 248, 255, 0.5);
+    border: 1px solid rgba(57, 99, 190, 0.3);
+    box-sizing: border-box;
+    border-radius: 0px 25px 25px 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.quick-contact-mobile,
+#get-location-paragraph,
+#copyright-mobile {
+    display: none;
 }
 
 
@@ -834,12 +851,43 @@ q {
         max-width: 606px;
         max-height: 384px;
     }
-    .quick-response,
-    .telephoneText {
-        display: none;
+    .quick-contact-mobile,
+    #get-location-paragraph {
+        display: block;
     }
     #fancybutton-hide {
         display: none;
+    }
+    #contact-paragraph,
+    #contact-title,
+    #faq-section {
+        display: none;
+    }
+    .dots-form {
+        background-image: none;
+    }
+    .quick-response,
+    .telephoneText,
+    .contact-Vector {
+        display: none;
+    }
+    #headerCss {
+        background: #E1F9FF;
+        color: #1A3C86;
+    }
+    #copyright-mobile {
+        display: block;
+        background: #2B498C;
+        text-align: center !important;
+        font-family: 'Red Hat Display' !important;
+        font-style: normal !important;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 }
 
@@ -870,6 +918,10 @@ q {
     }
     .about-us-title-image {
         display: none;
+    }
+    #headerCss {
+        background: #1A3C86;
+        color: #FFFFFF;
     }
 }
 
