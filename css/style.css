@@ -763,6 +763,16 @@ q {
         line-height: 20px;
         text-align: center;
     }
+    #footerParagraph {
+        font-family: 'Red Hat Display' !important;
+        font-style: normal !important;
+        font-weight: 500;
+        max-width: 350px;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
     .video-section-paragraph {
         max-width: 350px;
         font-size: 13px;
@@ -953,6 +963,9 @@ q {
         text-align: center;
         letter-spacing: 0.01em;
         color: #1A3C86;
+    }
+    .prev-next-class {
+        display: none;
     }
 }
 
