@@ -251,11 +251,11 @@ a:active {
 .accordion-body {
     font-family: 'Red Hat Display' !important;
     font-style: normal !important;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 0.01em;
-    color: #1A3C86;
+    color: #1A3C86 !important;
 }
 
 
@@ -608,8 +608,8 @@ q {
 }
 
 .counter {
-    font-family: 'Red Hat Display';
-    font-style: normal;
+    font-family: 'Red Hat Display' !important;
+    font-style: normal !important;
     font-weight: 900;
     font-size: 45px;
     line-height: 70px !important;
@@ -768,10 +768,16 @@ q {
         font-size: 13px;
         line-height: 28px;
     }
-    .video-section-hTag {
-        max-width: 265px;
-        font-size: 30px;
-        line-height: 35px;
+    #video-section-paragraph {
+        font-family: 'Red Hat Display' !important;
+        font-style: normal !important;
+        font-weight: 500;
+        max-width: 350px;
+        font-size: 13px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        opacity: 0.85;
     }
     .about-us-title-image {
         display: none;
@@ -838,10 +844,21 @@ q {
         display: none;
     }
     .video-section-hTag {
-        max-width: 330px;
+        max-width: 350px;
         font-size: 30px;
         line-height: 45px;
         text-align: center;
+    }
+    #video-section-hTag {
+        font-family: 'Red Hat Display' !important;
+        font-style: normal !important;
+        font-weight: 700;
+        max-width: 350px;
+        font-size: 30px;
+        line-height: 45px;
+        letter-spacing: 0.01em;
+        text-transform: capitalize;
+        color: #1A3C86;
     }
     #paragraph-center {
         line-height: 28px;
@@ -885,6 +902,15 @@ q {
         padding-top: 2%;
         padding-bottom: 2%;
     }
+    .prev-next2 {
+        display: none;
+    }
+    .card-design {
+        width: 25%;
+    }
+    .counter {
+        font-size: 18px;
+    }
 }
 
 @media (min-width:768px) {
@@ -918,6 +944,15 @@ q {
     #headerCss {
         background: #1A3C86;
         color: #FFFFFF;
+    }
+    .icon-css {
+        font-family: 'Red Hat Display' !important;
+        font-style: normal !important;
+        font-weight: 900;
+        font-size: 45px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #1A3C86;
     }
 }
 
