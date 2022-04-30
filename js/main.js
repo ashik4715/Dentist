@@ -9,6 +9,10 @@
 //   })
 // card hover css change
 
+// Card Paginate
+
+// end card paginate
+
 // slider
 var slideIndex = 1;
 showSlides(slideIndex);
